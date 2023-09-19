@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "example_assembly_test.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -54,7 +54,7 @@ static void MX_GPIO_Init(void);
 static void MX_SPI1_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
-
+extern int acc_ref_app_rf_certification_test(int argc, char *argv[]);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -104,7 +104,8 @@ int main(void) {
 	MX_SPI1_Init();
 	MX_USART2_UART_Init();
 	/* USER CODE BEGIN 2 */
-
+	acc_example_assembly_test(0, NULL);
+	acc_ref_app_rf_certification_test(0, NULL);
 	/* USER CODE END 2 */
 
 	/* Infinite loop */
