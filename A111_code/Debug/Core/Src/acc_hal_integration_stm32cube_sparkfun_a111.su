@@ -1,0 +1,8 @@
+../Core/Src/acc_hal_integration_stm32cube_sparkfun_a111.c:45:20:disable_interrupts	4	static,ignoring_inline_asm
+../Core/Src/acc_hal_integration_stm32cube_sparkfun_a111.c:51:20:enable_interrupts	4	static,ignoring_inline_asm
+../Core/Src/acc_hal_integration_stm32cube_sparkfun_a111.c:76:13:acc_hal_integration_sensor_transfer	40	static
+../Core/Src/acc_hal_integration_stm32cube_sparkfun_a111.c:116:13:acc_hal_integration_sensor_power_on	16	static
+../Core/Src/acc_hal_integration_stm32cube_sparkfun_a111.c:128:13:acc_hal_integration_sensor_power_off	16	static
+../Core/Src/acc_hal_integration_stm32cube_sparkfun_a111.c:141:13:acc_hal_integration_wait_for_sensor_interrupt	24	static,ignoring_inline_asm
+../Core/Src/acc_hal_integration_stm32cube_sparkfun_a111.c:165:14:acc_hal_integration_get_reference_frequency	4	static
+../Core/Src/acc_hal_integration_stm32cube_sparkfun_a111.c:193:18:acc_hal_integration_get_implementation	4	static
